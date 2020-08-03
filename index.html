@@ -32,8 +32,10 @@
   <aside class="offcanvas-aside">
 
   <!-- Contact -->
-  <section id="contact">
-    <h4>Contact Me</h4>
+  <section id="contact ">
+    <div class="contact-section">
+    <button type="button" class="btn btn-warning mb-4 close-contact"  onclick="openCanvas()">X</button>
+    <h4 class="pb-3">Contact Me</h4>
     <form>
       <div class="form-group">
         <label for="exampleFormControlInput1">Name</label>
@@ -44,11 +46,12 @@
         <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <label for="exampleFormControlTextarea1">Message</label>
         <textarea class="form-control" id="textInput" rows="3"></textarea>
       </div>
     </form>
     <button type="button" class="btn btn-warning contact-submit-btn" onclick="openCanvas()">submit</button>
+  </div>
   </section>
     
   </aside>

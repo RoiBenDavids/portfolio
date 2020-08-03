@@ -59,9 +59,9 @@ function renderModal(projIdx) {
                 <p>${proj.desc}</p>
                 <ul class="list-inline">
                   <li>${publishedAt}</li>
-                  <a class="btn btn-success" href="proj/${proj.name}/index.html" target="_blank">To Project</a>
+                  <a class="btn btn-primary mt-4" href="proj/${proj.name}/index.html" target="_blank">To Project</a>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <button class="btn btn-primary " data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
               </div>

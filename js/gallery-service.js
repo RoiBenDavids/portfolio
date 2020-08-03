@@ -21,6 +21,10 @@ var gProjects = [{
 
 ]
 
+
+
+
+
 // function getProjToRender(projId) {
 //     var projToRender = gProjects.find(function (proj) {
 //         return proj.id === projId
